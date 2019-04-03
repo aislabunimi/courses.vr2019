@@ -12,5 +12,6 @@ You can open both projects in Unity by following the appropriate section of [thi
 
 * [Leap Motion Controller Developer Website](https://developer.leapmotion.com/)
 * [Leap Motion Controller Runtime Installer](https://warehouse.leapmotion.com/apps/4621/download)
-* [Leap Motion Controller Unity SDK (Core v.4.4.0)](https://developer.leapmotion.com/unity#5436356)
+* [Leap Motion Controller Unity SDK (Core v.4.4.0 + Interaction Engine v.1.2.0)](https://developer.leapmotion.com/unity#5436356)
+**NOTE**: You may need to reimport these packages to make the Leap Motion Unity Project work properly
 * [Leap Motion Controller Unity SDK Documentation](https://leapmotion.github.io/UnityModules/)
