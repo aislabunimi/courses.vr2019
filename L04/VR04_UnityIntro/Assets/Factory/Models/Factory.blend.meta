@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: 385c5260550e3b4428cd9cb7cb2f46fc
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Ceil
+    100002: Cylinder
+    100004: Door
+    100006: Exit
+    100008: //RootNode
+    100010: MachineLeft
+    100012: MachineRight
+    100014: Pipe
+    100016: Tapis
+    100018: TapisBase
+    400000: Ceil
+    400002: Cylinder
+    400004: Door
+    400006: Exit
+    400008: //RootNode
+    400010: MachineLeft
+    400012: MachineRight
+    400014: Pipe
+    400016: Tapis
+    400018: TapisBase
+    2300000: Ceil
+    2300002: Cylinder
+    2300004: Door
+    2300006: Exit
+    2300008: //RootNode
+    2300010: MachineLeft
+    2300012: MachineRight
+    2300014: Pipe
+    2300016: Tapis
+    2300018: TapisBase
+    3300000: Ceil
+    3300002: Cylinder
+    3300004: Door
+    3300006: Exit
+    3300008: //RootNode
+    3300010: MachineLeft
+    3300012: MachineRight
+    3300014: Pipe
+    3300016: Tapis
+    3300018: TapisBase
+    4300000: Room
+    4300002: MachineRight
+    4300004: Tapis
+    4300006: TapisBase
+    4300008: Cylinder
+    4300010: MachineLeft
+    4300012: Door
+    4300014: Exit
+    4300016: Ceil
+    4300018: Pipe
+    6400000: Ceil
+    6400002: Cylinder
+    6400004: Door
+    6400006: Exit
+    6400008: //RootNode
+    6400010: MachineLeft
+    6400012: MachineRight
+    6400014: Pipe
+    6400016: Tapis
+    6400018: TapisBase
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceil__Factory_AO
+    second: {fileID: 2100000, guid: bb5d3306223d66246bf583818fd424ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder__Factory_AO
+    second: {fileID: 2100000, guid: ccfe696bdaf942d478ad539c37719eda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door__Factory_AO
+    second: {fileID: 2100000, guid: 3c1830f1fdc68644db699d3aad954964, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Machine__Factory_AO
+    second: {fileID: 2100000, guid: a593b951f570cea4bbb0025d4acc459d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Room__Factory_AO
+    second: {fileID: 2100000, guid: 723f5502271d6c740b6c9a9d44beb3e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sign__Factory_AO
+    second: {fileID: 2100000, guid: b46aa251c567d2e448f78cfa7fe3da69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TapisBase__Factory_AO
+    second: {fileID: 2100000, guid: 48274b9f00824c74eaf7ed1743e974e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tapis__Factory_AO
+    second: {fileID: 2100000, guid: 5aff5392d639b114b96692bc813ffbe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tube__Factory_AO
+    second: {fileID: 2100000, guid: 39e0bc2169b026f49bd285e3857c0154, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
