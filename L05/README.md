@@ -13,3 +13,5 @@ You can open the project in Unity by following the appropriate section of [this]
 * [Google VR SDK for Unity (Google documentation)](https://developers.google.com/vr/develop/unity/get-started-android)
 * [Google VR manual page (Unity documentation)](https://docs.unity3d.com/Manual/googlevr_sdk_overview.html)
 * [Latest GVR SDK - unitypackage](https://github.com/googlevr/gvr-unity-sdk/releases)
+
+**NOTE**: If you get compilation errors when opening the project please reimport the [GVR SDK unitypackage](https://github.com/googlevr/gvr-unity-sdk/releases/download/v1.200.0/GoogleVRForUnity_1.200.0.unitypackage)
