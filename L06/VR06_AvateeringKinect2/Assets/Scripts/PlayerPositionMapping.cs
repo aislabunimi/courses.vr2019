@@ -19,11 +19,6 @@ namespace KinectV2Components
 		private KinectAvatarController controller;
 
         /// <summary>
-        /// Position multipliers.
-        /// </summary>
-        private float multX, multY, multZ;
-
-        /// <summary>
         /// Reference to the attached Transform.
         /// </summary>
         private Transform tr;
@@ -35,11 +30,6 @@ namespace KinectV2Components
 		{
 			controller = GetComponent<KinectAvatarController>();
             tr = GetComponent<Transform>();
-
-            // Retrieves the position multipliers.
-            multX = controller.transform.lossyScale.x;
-            multY = controller.transform.lossyScale.y;
-            multZ = controller.transform.lossyScale.z;
 
             RegisterToKinectManager();
 		}
@@ -55,10 +45,12 @@ namespace KinectV2Components
 			CameraSpacePoint kinectSpineBase = bodies[controller.Id].Joints[JointType.SpineBase].Position;
             Vector3 spineBaseAcquiredPosition = new Vector3(kinectSpineBase.X, kinectSpineBase.Y, -kinectSpineBase.Z);
 
-            // Applies the coefficient.
-            spineBaseAcquiredPosition.x *= multX;
-            spineBaseAcquiredPosition.y *= multY;
-            spineBaseAcquiredPosition.z *= multZ;
+            // Applies the scale. This is necessary for avatars that do not respect the Unity 
+            // length measures (e.g., avatars with increased size). This scaling process ensures
+            // that proportions are correctly reported from real world to virtual world.
+            spineBaseAcquiredPosition.x *= controller.transform.lossyScale.x;
+            spineBaseAcquiredPosition.y *= controller.transform.lossyScale.y;
+            spineBaseAcquiredPosition.z *= controller.transform.lossyScale.z;
 
 			// Computes the absolute coordinates.
 			spineBaseAcquiredPosition += origin.transform.position;

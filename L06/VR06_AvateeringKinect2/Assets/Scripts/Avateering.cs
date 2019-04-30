@@ -79,19 +79,16 @@ namespace KinectV2Components
         {
 			// Retrieves the body informations.
 			Body avatarBody = bodies[controller.Id];
-			Dictionary<JointType, JointOrientation> orientations = avatarBody.JointOrientations;
 
 			// Defines utility quaternions.
 			Quaternion adjust;
+            
+            int nJoints = Enum.GetValues(typeof(JointType)).Length;
 
-			// Creates a breadth-first joint traversal enumerator.
-			IEnumerator<JointType> jointEnumerator = 
-				((IEnumerable<JointType>)Enum.GetValues(typeof(JointType))).GetEnumerator();
-
-			while (jointEnumerator.MoveNext())
+			for (int i = 0; i < nJoints; i++)
 			{
 				// Retrieves current joint.
-				JointType currentJoint = jointEnumerator.Current;
+				JointType currentJoint = (JointType)i;
 
 				// Skip this phase if we are considering a KinectV2 joint in a KinectV1-rigged avatar.
 				if (useKinectV1Skeleton && KinectV2Joints.Contains(currentJoint))
@@ -107,24 +104,17 @@ namespace KinectV2Components
 
 				// Gets rotating  joint's gameobject.
 				GameObject rotatingJoint = controller.JointObjects[currentJoint];
-				
 
-				// Gets the quaternion acquired from Kinect.
-				// Also reverses the Z axis and the angle in order to convert the reference frame.
-				Quaternion newOrientation = new Quaternion(orientations[currentJoint].Orientation.X,
-						orientations[currentJoint].Orientation.Y, -orientations[currentJoint].Orientation.Z,
-						-orientations[currentJoint].Orientation.W);
+                // Gets the quaternion acquired from Kinect.
+                // Also reverses the Z axis and the angle in order to convert the reference frame.
+                var currentJointOrientation = avatarBody.JointOrientations[currentJoint].Orientation;
+				Quaternion newOrientation = new Quaternion(currentJointOrientation.X,
+						currentJointOrientation.Y, -currentJointOrientation.Z,
+						-currentJointOrientation.W);
 
-				// Adds offset if needed.
-				try
-				{
-					adjust = offsetRotations[currentJoint];
-				}
-				catch (KeyNotFoundException)
-				{
-					adjust = Quaternion.identity;
-				}
-				newOrientation *= adjust;
+                // Adds offset if needed.
+                if (offsetRotations.TryGetValue(currentJoint, out adjust))
+                    newOrientation *= adjust;
 
 				// Applies rotation by considering also the avatar orientation in world coordinates.
 				// There is no need of spherical interpolation since Kinect already provides a frame-by-frame set 

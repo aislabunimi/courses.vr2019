@@ -153,12 +153,12 @@ namespace KinectV2Components
 					}
 				}
 
-				// Executes each of the elaboration tasks in the given order.
-				IEnumerator<KinectService> taskEnumerator = Tasks.GetEnumerator();
-				while (taskEnumerator.MoveNext())
+                // Executes each of the elaboration tasks in the given order.
+                int nTasks = Tasks.Count;
+				for (int i = 0; i < nTasks; i++)
                     try
                     {
-                        taskEnumerator.Current.Elaborate(bodies);
+                        Tasks[i].Elaborate(bodies);
                     }
 					catch (System.Exception e)
                     {
