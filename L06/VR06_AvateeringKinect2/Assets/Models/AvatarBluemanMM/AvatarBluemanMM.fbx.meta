@@ -1,0 +1,259 @@
+fileFormatVersion: 2
+guid: 6fd6a2e816e50104b834ecb29abf25af
+timeCreated: 1490708297
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: //RootNode
+    100006: Cube
+    100008: Elbow_L
+    100010: Elbow_R
+    100012: Foot_L
+    100014: Foot_L_end
+    100016: Foot_R
+    100018: Foot_R_end
+    100020: Hand_L
+    100022: Hand_L_end
+    100024: Hand_R
+    100026: Hand_R_end
+    100028: Head
+    100030: HeadTip
+    100032: HeadTip_end
+    100034: Hip_C
+    100036: Hip_L
+    100038: Hip_R
+    100040: Knee_L
+    100042: Knee_R
+    100044: Shoulder_C
+    100046: Shoulder_L
+    100048: Shoulder_R
+    100050: Skeleton
+    100052: Wrist_L
+    100054: Wrist_R
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: //RootNode
+    400006: Cube
+    400008: Elbow_L
+    400010: Elbow_R
+    400012: Foot_L
+    400014: Foot_L_end
+    400016: Foot_R
+    400018: Foot_R_end
+    400020: Hand_L
+    400022: Hand_L_end
+    400024: Hand_R
+    400026: Hand_R_end
+    400028: Head
+    400030: HeadTip
+    400032: HeadTip_end
+    400034: Hip_C
+    400036: Hip_L
+    400038: Hip_R
+    400040: Knee_L
+    400042: Knee_R
+    400044: Shoulder_C
+    400046: Shoulder_L
+    400048: Shoulder_R
+    400050: Skeleton
+    400052: Wrist_L
+    400054: Wrist_R
+    4300000: Cube
+    7400000: ArmatureAction
+    7400002: ArmatureAction.001
+    7400004: ArmatureAction.002
+    7400006: ArmatureAction.003
+    7400008: Skeleton|ArmatureAction.004
+    7400010: Skeleton|ArmatureAction.005
+    7400012: Skeleton|ArmatureAction.006
+    7400014: Skeleton|ArmatureAction.007
+    9500000: //RootNode
+    13700000: Cube
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ankle_L
+    second: {fileID: 2100000, guid: 936033d4387e5a841bad48552a0fbd46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ankle_R
+    second: {fileID: 2100000, guid: 83541d75376498d4bad23a673e607bee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elbow_L
+    second: {fileID: 2100000, guid: e5abce6f994fee342834cfae1ac43bb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Elbow_R
+    second: {fileID: 2100000, guid: 8e0f3276b76908e4489b6122e4259ece, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Foot_L
+    second: {fileID: 2100000, guid: 594b1044c70d11a478b52cdb5f3164dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Foot_R
+    second: {fileID: 2100000, guid: 59310370643f23b4b85338cc5febcd2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hand_L
+    second: {fileID: 2100000, guid: c035a6fefcb404945ac1190e73bb8cda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hand_R
+    second: {fileID: 2100000, guid: 438b6a6d2587996479cbfff97032a5dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Head
+    second: {fileID: 2100000, guid: d730ac92a501ab94aa431939397fc97c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hip_C
+    second: {fileID: 2100000, guid: a317aaa26746f6242a168a0929d8dbd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hip_L
+    second: {fileID: 2100000, guid: be858a493794a5e4da651d5ce12181b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hip_R
+    second: {fileID: 2100000, guid: b8b8eda2f771da247a0015b190e22e5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Knee_L
+    second: {fileID: 2100000, guid: 338d83e8f473d7149ac5290d36a4aa2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Knee_R
+    second: {fileID: 2100000, guid: e729a0d04766ea341ac7d7e328873b9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: NoMat
+    second: {fileID: 2100000, guid: bddf492e679d8ef4887965a51403dd7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoulder_C
+    second: {fileID: 2100000, guid: 221ddeb19f90169408c7586a846c6097, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoulder_L
+    second: {fileID: 2100000, guid: 572c59c0806c7204b87eac41a7794fb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shoulder_R
+    second: {fileID: 2100000, guid: ec206c15f44735249859789db3cf3a99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Spine
+    second: {fileID: 2100000, guid: 62405092fe97fdd45a92d4498493792b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wrist_L
+    second: {fileID: 2100000, guid: 1acbe00c3288f914e971716df7b0c718, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wrist_R
+    second: {fileID: 2100000, guid: 6623e8271ee19dd499939b54b6b1ce09, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
