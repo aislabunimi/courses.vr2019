@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Smart Turret Template/Scenes/Overview.unity
-  isLoaded: 1
-  isActive: 1
